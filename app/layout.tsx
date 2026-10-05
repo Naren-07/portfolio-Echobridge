@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Syne, Inter } from "next/font/google";
 import "./globals.css";
+import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
+import { CustomCursor } from "@/components/layout/CustomCursor";
 
 const syne = Syne({
   variable: "--font-syne",
@@ -60,7 +62,8 @@ export default function RootLayout({
     >
       <body className="min-h-screen flex flex-col bg-[#050505] text-[#f5f5f5] font-sans selection:bg-[#ff2d2d] selection:text-[#050505]">
         <div className="film-grain" aria-hidden="true" />
-        {children}
+        <CustomCursor />
+        <SmoothScrollProvider>{children}</SmoothScrollProvider>
       </body>
     </html>
   );

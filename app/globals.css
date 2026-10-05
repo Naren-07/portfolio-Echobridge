@@ -73,6 +73,24 @@ body {
   box-shadow: 0 0 10px rgba(255, 45, 45, 0.8);
 }
 
+/* Infinite Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}
+
+.direction-reverse {
+  animation-direction: reverse;
+}
+
 /* Custom Selection Highlight */
 ::selection {
   background-color: #ff2d2d;
