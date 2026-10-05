@@ -1,0 +1,44 @@
+[
+  {
+    "id": "faq-01",
+    "group": "About",
+    "question": "What is Echo Bridge Studios?",
+    "answer": "Echo Bridge is a full-service cinematic creative studio and production house. We direct and produce high-end commercial films, brand anthems, music videos, and high-velocity digital content designed to stop thumbs and command culture.",
+    "order": 1
+  },
+  {
+    "id": "faq-02",
+    "group": "About",
+    "question": "Where are you located and do you travel for productions?",
+    "answer": "We maintain active production hubs in Los Angeles, London, and Mumbai, with seasoned fixers and logistics partners worldwide. Over 70% of our projects are filmed on location globally across North America, Europe, Asia, and remote biomes.",
+    "order": 2
+  },
+  {
+    "id": "faq-03",
+    "group": "Work & Services",
+    "question": "Can you handle our project end-to-end or just physical production?",
+    "answer": "Both. We operate as an end-to-end partner covering Concept, Physical Production, and Post-Production (Editorial, Color Grading, VFX, Sound). Alternatively, agencies often hire us purely as director/production partner for existing scripts.",
+    "order": 3
+  },
+  {
+    "id": "faq-04",
+    "group": "Work & Services",
+    "question": "Do you shoot both 16:9 cinema films and 9:16 vertical reels simultaneously?",
+    "answer": "Yes. Our camera setups frequently incorporate dedicated 9:16 vertical monitoring rigs or secondary high-resolution digital cameras on set. We compose specifically for both widescreen cinema and vertical social feeds without clumsy cropping.",
+    "order": 4
+  },
+  {
+    "id": "faq-05",
+    "group": "Budgets & Timelines",
+    "question": "What is the typical production timeline for a commercial film?",
+    "answer": "A standard commercial project typically spans 4 to 8 weeks: 2-3 weeks for treatment, scripting, casting, and pre-production; 1-4 shoot days; and 2-3 weeks for editorial, color grading, sound design, and master delivery.",
+    "order": 5
+  },
+  {
+    "id": "faq-06",
+    "group": "Budgets & Timelines",
+    "question": "What are your minimum budget tiers?",
+    "answer": "Our indie studio packages start around $10,000 (₹5,00,000) for lean social campaigns, while full-scale broadcast commercial films and high-concept music videos range from $30,000 to $150,000+ (₹15,00,000 to ₹1,00,00,000+). Use our interactive brief below to explore tiers.",
+    "order": 6
+  }
+]

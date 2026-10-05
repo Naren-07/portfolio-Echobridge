@@ -1,0 +1,41 @@
+[
+  {
+    "id": "post-01",
+    "slug": "anatomy-of-35mm-film-emulation-davinci",
+    "title": "The Anatomy of 35mm Celluloid Emulation in Modern Digital Cinema",
+    "excerpt": "Why modern ultra-sharp 8K digital sensors feel sterile, and how we engineer halation, grain structure, and density curves to achieve organic cinematic weight.",
+    "content": "Digital sensors have achieved unprecedented scientific resolution, but cinema has never been about clinical accuracy—it is about psychological atmosphere. In this deep dive, we explore how our color suite replicates Kodak 5219 and 250D emulsion characteristics...",
+    "coverUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    "author": "Naren K.",
+    "authorRole": "Creative Director & DOP",
+    "publishedAt": "2026-09-28",
+    "readingTime": "5 min read",
+    "tags": ["Color Grading", "Film Science", "Directing"]
+  },
+  {
+    "id": "post-02",
+    "slug": "directing-for-the-scroll-vertical-cinema",
+    "title": "Directing for the Scroll: Why 9:16 Demands Pure Compositional Discipline",
+    "excerpt": "Cropping widescreen footage is lazy. Here is how we construct visual center lines and kinetic vertical blocking for thumb-stopping reels.",
+    "content": "The vertical aspect ratio is historically dismissed by traditional purists as a social novelty. However, framing human anatomy vertically mirrors Renaissance portraiture far closer than horizontal cinema...",
+    "coverUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+    "author": "Aria Chen",
+    "authorRole": "Executive Producer",
+    "publishedAt": "2026-09-14",
+    "readingTime": "4 min read",
+    "tags": ["Vertical Video", "Strategy", "Social Cinema"]
+  },
+  {
+    "id": "post-03",
+    "slug": "high-speed-dynamics-phantom-4k",
+    "title": "Sub-Second Choreography: High-Speed Robotics at 1000 Frames Per Second",
+    "excerpt": "Behind the engineering of high-velocity camera moves where a millimeter of focus deviation ruins the entire take.",
+    "content": "When an athlete sprints or liquid impacts glass at 1000 frames per second, human reflex is mathematically too slow to rack focus. Here is how we integrate real-time optical telemetry...",
+    "coverUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1200&q=80",
+    "author": "Darius Holme",
+    "authorRole": "Technical Director",
+    "publishedAt": "2026-08-20",
+    "readingTime": "6 min read",
+    "tags": ["Engineering", "High Speed", "Motion Control"]
+  }
+]

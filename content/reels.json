@@ -1,0 +1,98 @@
+[
+  {
+    "id": "reel-01",
+    "slug": "lucid-velocity",
+    "title": "Lucid Velocity",
+    "brand": "Red Bull Media House",
+    "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+    "videoId": "ScMzIvxBSi4",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=800&q=80",
+    "views": "2.4M",
+    "category": "Action Sports",
+    "credits": [
+      { "role": "Director", "name": "Naren K." },
+      { "role": "Action DOP", "name": "Travis Cole" }
+    ],
+    "order": 1
+  },
+  {
+    "id": "reel-02",
+    "slug": "monochrome-drape",
+    "title": "Monochrome Drape",
+    "brand": "Balenciaga SS26",
+    "videoUrl": "https://www.youtube.com/watch?v=LXb3EKWsInQ",
+    "videoId": "LXb3EKWsInQ",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "views": "1.8M",
+    "category": "High Fashion",
+    "credits": [
+      { "role": "Director", "name": "Chloe Delacroix" },
+      { "role": "DOP", "name": "Naren K." }
+    ],
+    "order": 2
+  },
+  {
+    "id": "reel-03",
+    "slug": "hyper-kinetic-tokyo",
+    "title": "Hyper Kinetic Tokyo",
+    "brand": "Asics Running",
+    "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+    "videoId": "ScMzIvxBSi4",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80",
+    "views": "3.1M",
+    "category": "Commercial Social",
+    "credits": [
+      { "role": "Director", "name": "Naren K." },
+      { "role": "Editor", "name": "Kenji Sato" }
+    ],
+    "order": 3
+  },
+  {
+    "id": "reel-04",
+    "slug": "analog-heartbeat",
+    "title": "Analog Heartbeat",
+    "brand": "Moog Synthesizers",
+    "videoUrl": "https://www.youtube.com/watch?v=LXb3EKWsInQ",
+    "videoId": "LXb3EKWsInQ",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80",
+    "views": "920K",
+    "category": "Sound Craft",
+    "credits": [
+      { "role": "Director", "name": "Naren K." },
+      { "role": "Sound", "name": "Echo Soundworks" }
+    ],
+    "order": 4
+  },
+  {
+    "id": "reel-05",
+    "slug": "nocturnal-drift",
+    "title": "Nocturnal Drift",
+    "brand": "BMW M Performance",
+    "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+    "videoId": "ScMzIvxBSi4",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80",
+    "views": "4.5M",
+    "category": "Automotive Social",
+    "credits": [
+      { "role": "Director", "name": "Naren K." },
+      { "role": "Colorist", "name": "Damien Moreau" }
+    ],
+    "order": 5
+  },
+  {
+    "id": "reel-06",
+    "slug": "golden-hour-drift",
+    "title": "Golden Hour Drift",
+    "brand": "Ray-Ban Meta",
+    "videoUrl": "https://www.youtube.com/watch?v=LXb3EKWsInQ",
+    "videoId": "LXb3EKWsInQ",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
+    "views": "1.2M",
+    "category": "Lifestyle Wearable",
+    "credits": [
+      { "role": "Director", "name": "Aria Chen" },
+      { "role": "DOP", "name": "Marcus Vance" }
+    ],
+    "order": 6
+  }
+]
