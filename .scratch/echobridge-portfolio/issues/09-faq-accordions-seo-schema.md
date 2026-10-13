@@ -4,10 +4,10 @@
 
 **Blocked by:** 02: Home Cinematic Core & Brand Visuals, 03: Services Pillar System & Dedicated Page, 04: Languages World Matrix & Dedicated Page, 05: Curated Showcase Rails, Filter Library & Case Studies, 06: Studio Infrastructure, Stats & Lightbox Gallery, 07: Founder Story, Timeline & About Experience, 08: Interactive Project Brief, Talent Roster & API Handlers
 
-**Status:** ready-for-agent
+**Status:** completed
 
-- [ ] Typed FAQ dataset in `content/faq.json` addressing 8 essential client queries (dubbing turnaround, AI integration, OTT workflow, NDA security)
-- [ ] Accessible accordion component with smooth height animation and Schema `FAQPage` markup
-- [ ] Comprehensive SEO metadata helper (`lib/seo.ts`) generating page titles, descriptions, and Open Graph cards using the circular EB badge
-- [ ] JSON-LD structured data for `Organization` and `ProfessionalService` including studio contact info, address, and social links
-- [ ] Dynamic `app/sitemap.ts` and `app/robots.ts` indexing all public routes and dynamic `/work/[slug]` pages
+- [x] Typed FAQ dataset in `content/faq.json` addressing 8 essential client queries (dubbing turnaround, AI integration, OTT workflow, NDA security)
+- [x] Accessible accordion component with smooth height animation and Schema `FAQPage` markup
+- [x] Comprehensive SEO metadata helper (`lib/seo.ts`) generating page titles, descriptions, and Open Graph cards using the circular EB badge
+- [x] JSON-LD structured data for `Organization` and `ProfessionalService` including studio contact info, address, and social links
+- [x] Dynamic `app/sitemap.ts` and `app/robots.ts` indexing all public routes and dynamic `/work/[slug]` pages

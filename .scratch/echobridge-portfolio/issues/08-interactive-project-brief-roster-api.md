@@ -4,11 +4,11 @@
 
 **Blocked by:** 01: Next.js Foundation & Design Token Engine
 
-**Status:** ready-for-agent
+**Status:** completed
 
-- [ ] Interactive Project Brief Form on `/contact` with real-time reactive volume (episodes/minutes) and budget sliders
-- [ ] Format pill selector (Dubbing, Voice-over, Localization, Subtitling, Micro-Drama, AI Content, YouTube, Brand Film)
-- [ ] Language requirements multi-select picker from supported dialects
-- [ ] Route Handler `/api/contact` with Zod schema validation, email notification dispatch (Resend/SMTP), and JSON lead logging
-- [ ] Dedicated `/join-roster` page and `/api/roster` handler for voice artists and studio engineers
-- [ ] Fallback "Instant WhatsApp Brief" button formatting the form inputs directly into a pre-filled WhatsApp message to `+91 8377086807`
+- [x] Interactive Project Brief Form on `/contact` with real-time reactive volume (episodes/minutes) and budget sliders
+- [x] Format pill selector (Dubbing, Voice-over, Localization, Subtitling, Micro-Drama, AI Content, YouTube, Brand Film)
+- [x] Language requirements multi-select picker from supported dialects
+- [x] Route Handler `/api/contact` with Zod schema validation, email notification dispatch (Resend/SMTP), and JSON lead logging
+- [x] Dedicated `/join-roster` page and `/api/roster` handler for voice artists and studio engineers
+- [x] Fallback "Instant WhatsApp Brief" button formatting the form inputs directly into a pre-filled WhatsApp message to `+91 8377086807`

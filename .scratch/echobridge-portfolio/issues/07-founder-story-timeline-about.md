@@ -4,10 +4,10 @@
 
 **Blocked by:** 01: Next.js Foundation & Design Token Engine
 
-**Status:** ready-for-agent
+**Status:** completed
 
-- [ ] Homepage founder strip with portrait, quote ("Stories were never meant to stay in one language..."), and link to `/about`
-- [ ] Dedicated `/about` page featuring the dual-surface palette (cinematic dark hero transitioning into warm cream story section)
-- [ ] Interactive vertical timeline documenting Sarika Sharma's career from national broadcast networks (Zee, Star, PlanetCast) to founding EchoBridge Studio
-- [ ] Studio philosophy block with quote: "We don't just translate words — we translate emotions"
-- [ ] Core values cards: "Creativity", "Cultural Insight", "Voice Excellence"
+- [x] Homepage founder strip with portrait, quote ("Stories were never meant to stay in one language..."), and link to `/about`
+- [x] Dedicated `/about` page featuring the dual-surface palette (cinematic dark hero transitioning into warm cream story section)
+- [x] Interactive vertical timeline documenting Sarika Sharma's career from national broadcast networks (Zee, Star, PlanetCast) to founding EchoBridge Studio
+- [x] Studio philosophy block with quote: "We don't just translate words — we translate emotions"
+- [x] Core values cards: "Creativity", "Cultural Insight", "Voice Excellence"

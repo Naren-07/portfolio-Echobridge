@@ -4,10 +4,10 @@
 
 **Blocked by:** 01: Next.js Foundation & Design Token Engine
 
-**Status:** ready-for-agent
+**Status:** completed
 
-- [ ] Cinematic hero section with high-res poster fallback, video embed, and primary/secondary CTAs ("Start a Project", "Watch Showreel")
-- [ ] Monochrome "REC" indicator and subtle gold pulse animation in the hero
-- [ ] Infinite auto-scrolling genre marquee deck featuring high-resolution cropped artwork cards from the pitch deck
-- [ ] Cream surface (`[data-surface="cream"]`) About teaser section with quote: "We don't just translate words — we translate emotions"
-- [ ] Interactive modal for the showreel with play/pause controls and accessible close
+- [x] Cinematic hero section with high-res poster fallback, video embed, and primary/secondary CTAs ("Start a Project", "Watch Showreel")
+- [x] Monochrome "REC" indicator and subtle gold pulse animation in the hero
+- [x] Infinite auto-scrolling genre marquee deck featuring high-resolution cropped artwork cards from the pitch deck
+- [x] Cream surface (`[data-surface="cream"]`) About teaser section with quote: "We don't just translate words — we translate emotions"
+- [x] Interactive modal for the showreel with play/pause controls and accessible close

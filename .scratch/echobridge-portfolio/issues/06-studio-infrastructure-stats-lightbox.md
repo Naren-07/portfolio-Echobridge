@@ -4,10 +4,10 @@
 
 **Blocked by:** 01: Next.js Foundation & Design Token Engine
 
-**Status:** ready-for-agent
+**Status:** completed
 
-- [ ] Typed studio capabilities and partner platforms datasets in `content/studio.json` and `content/partners.json`
-- [ ] Animated stats counter strip on Homepage (100+ Artists, 20+ Languages, TPN Network, 10M+ Streamed Minutes)
-- [ ] Partner logos marquee with monochrome-to-color hover transition and platform descriptions
-- [ ] Dedicated `/studio` page featuring the 6 capability pillars and production workflow ("Record · Localize · Produce · Deliver")
-- [ ] Interactive 6-photo gallery (Control Room, Console, Voice Booth, Facilities, Studio Lobby, Mastering Suite) with full-screen lightbox modal
+- [x] Typed studio capabilities and partner platforms datasets in `content/studio.json` and `content/partners.json`
+- [x] Animated stats counter strip on Homepage (100+ Artists, 20+ Languages, TPN Network, 10M+ Streamed Minutes)
+- [x] Partner logos marquee with monochrome-to-color hover transition and platform descriptions
+- [x] Dedicated `/studio` page featuring the 6 capability pillars and production workflow ("Record · Localize · Produce · Deliver")
+- [x] Interactive 6-photo gallery (Control Room, Console, Voice Booth, Facilities, Studio Lobby, Mastering Suite) with full-screen lightbox modal
