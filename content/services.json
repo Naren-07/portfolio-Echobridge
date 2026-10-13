@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "story-development",
+    "pillar": "human",
+    "pillarTitle": "Human-Led Creative & Localization",
+    "title": "Story Development",
+    "tagline": "Original IP, world building, and multi-format screenwriting.",
+    "description": "Crafting compelling narratives from seed concept to production-ready scripts. We build rich narrative bibles, episodic frameworks, character arcs, and pitch-ready creative packages for streamers and digital networks.",
+    "icon": "PenTool",
+    "image": "/assets/slide-creative-services.jpg",
+    "deliverables": [
+      "Original IP & Series Concept Development",
+      "Episodic Scriptwriting & Narrative Bibles",
+      "Character Design Arcs & World Building",
+      "Pitch Decks & Investor Presentation Packaging"
+    ]
+  },
+  {
+    "slug": "localization-adaptation",
+    "pillar": "human",
+    "pillarTitle": "Human-Led Creative & Localization",
+    "title": "Localization & Adaptation",
+    "tagline": "Cultural nuance translation, transcreation, and multi-dialect adaptation.",
+    "description": "True localization goes beyond literal words. Our cultural adaptation specialists preserve emotional resonance, comedic timing, local idioms, and regional slang across 20+ dialects.",
+    "icon": "Globe",
+    "image": "/assets/slide-creative-services.jpg",
+    "deliverables": [
+      "Cultural Nuance Script Transcreation",
+      "Multi-Language Subtitling & Closed Captioning",
+      "Broadcast-Spec Lip-Sync Adaptation",
+      "Dialect Nuance Consultation & Quality Control"
+    ]
+  },
+  {
+    "slug": "voice-audio-production",
+    "pillar": "human",
+    "pillarTitle": "Human-Led Creative & Localization",
+    "title": "Voice & Audio Production",
+    "tagline": "Full-cast dubbing, character voice acting, and surround sound post-production.",
+    "description": "From 100+ vetted native voice actors to TPN-approved acoustic isolation booths, we deliver broadcast-certified multi-track audio, Foley, original sound design, and Dolby Atmos / 5.1 spatial mastering.",
+    "icon": "Mic",
+    "image": "/assets/slide-creative-services.jpg",
+    "deliverables": [
+      "Character Voice-Over & Lip-Sync Dubbing",
+      "Immersive Audio Drama Production",
+      "Foley, Ambience & Bespoke Sound Design",
+      "5.1 Surround & Spatial Audio Mastering"
+    ]
+  },
+  {
+    "slug": "ai-content-production",
+    "pillar": "ai",
+    "pillarTitle": "AI-Powered Content Services",
+    "title": "AI Content Production",
+    "tagline": "End-to-end long and short-form digital content from prompt to delivery.",
+    "description": "Harnessing the bleeding edge of generative video, synthetic voice integration, and automated editing workflows to produce high-velocity cinematic storytelling for digital platforms at disruptive scale.",
+    "icon": "Cpu",
+    "image": "/assets/slide-ai-services.jpg",
+    "deliverables": [
+      "Generative Video Visual Effects & Backgrounds",
+      "Synthetic Voice Cloning with Human Polish",
+      "High-Volume Social Video Pipelines",
+      "Rapid Episodic Content Prototyping"
+    ]
+  },
+  {
+    "slug": "micro-drama-production",
+    "pillar": "ai",
+    "pillarTitle": "AI-Powered Content Services",
+    "title": "Micro Drama Production",
+    "tagline": "Vertical episodic drama tailored for mobile apps and OTT platforms.",
+    "description": "Producing 9:16 vertical serialized narratives engineered with cliffhangers, high emotional retention, character consistency, and rapid weekly episodic delivery.",
+    "icon": "Smartphone",
+    "image": "/assets/slide-ai-services.jpg",
+    "deliverables": [
+      "Vertical 9:16 Screenplay Architecture",
+      "Consistent Character Seed Modeling",
+      "Binge-Optimized Cliffhanger Pacing",
+      "Complete 50-to-100 Episode Series Turnaround"
+    ]
+  },
+  {
+    "slug": "youtube-content-production",
+    "pillar": "ai",
+    "pillarTitle": "AI-Powered Content Services",
+    "title": "YouTube Content Production",
+    "tagline": "High-retention video production for creator brands and global channels.",
+    "description": "Comprehensive YouTube production pipelines covering high-CTR conceptual packaging, scriptwriting, voice, multi-language dubbing, animated b-roll, and algorithmic retention editing.",
+    "icon": "PlaySquare",
+    "image": "/assets/slide-ai-services.jpg",
+    "deliverables": [
+      "Full-Funnel Script, Voice & Video Production",
+      "Multi-Language Channel Dubbing for Global Expansion",
+      "CTR-Optimized Visual Hooks & Motion Graphics",
+      "Consistent Weekly Channel Output Support"
+    ]
+  },
+  {
+    "slug": "brand-commercial-films",
+    "pillar": "ai",
+    "pillarTitle": "AI-Powered Content Services",
+    "title": "Brand & Commercial Films",
+    "tagline": "Cinematic commercial spots, product launches, and high-conversion ads.",
+    "description": "Combining live-action direction and AI-assisted visual enhancement to craft high-conversion advertising, brand manifestos, and social creative campaigns for agencies and brands.",
+    "icon": "Film",
+    "image": "/assets/slide-ai-services.jpg",
+    "deliverables": [
+      "Cinematic Brand Manifestos & Anthems",
+      "High-Impact Product Launch Spots",
+      "Performance Marketing Social Ad Creative Suites",
+      "Cross-Platform Deliverable Packaging"
+    ]
+  }
+]

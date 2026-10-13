@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Story TV",
+    "logo": "/assets/slide-partners.png",
+    "blurb": "Serialized audio and video storytelling platform reaching millions of daily active listeners.",
+    "category": "Streaming & Audio OTT"
+  },
+  {
+    "name": "Kuku TV",
+    "logo": "/assets/slide-partners.png",
+    "blurb": "Top vernacular audio and micro-drama platform powering regional serialized fiction.",
+    "category": "Vernacular OTT"
+  },
+  {
+    "name": "ShareChat",
+    "logo": "/assets/slide-partners.png",
+    "blurb": "India's premier multilingual social media network connecting Bharat in 15+ languages.",
+    "category": "Social & Short-Form"
+  },
+  {
+    "name": "Dashverse",
+    "logo": "/assets/slide-partners.png",
+    "blurb": "Next-generation digital narrative and gaming content ecosystem.",
+    "category": "Digital Entertainment"
+  },
+  {
+    "name": "Master",
+    "logo": "/assets/slide-partners.png",
+    "blurb": "OTT and digital distribution powerhouse delivering premium regional web series.",
+    "category": "Content Distribution"
+  },
+  {
+    "name": "YouTube Creator Network",
+    "logo": "/assets/slide-partners.png",
+    "blurb": "Collaborating with high-growth storytelling, challenge, and family channels worldwide.",
+    "category": "Global Video Creators"
+  }
+]

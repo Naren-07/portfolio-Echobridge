@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Services",
+    "question": "What core services does EchoBridge Studio provide?",
+    "answer": "EchoBridge Studio operates across two powerful pillars: Human-Led Creative & Localization (Original IP development, multi-language dubbing, voice acting, subtitling, and 5.1 sound post-production) and AI-Powered Content Services (AI vertical micro-drama production, YouTube creator video pipelines, and high-conversion commercial films)."
+  },
+  {
+    "category": "Services",
+    "question": "Which languages and regional dialects do you support?",
+    "answer": "We support 20+ languages natively. In India: Hindi, Marathi, Tamil, Telugu, Kannada, Malayalam, Punjabi, Haryanavi, and Gujarati. Internationally: Spanish, English (US/UK), Arabic, Thai, Bahasa Indonesia, Portuguese, French, German, Italian, Turkish, Russian, and Vietnamese."
+  },
+  {
+    "category": "Turnaround",
+    "question": "What is your typical turnaround time for a dubbing or localization project?",
+    "answer": "For digital creator and YouTube projects, our turnaround can be as fast as 24–48 hours. For full-season OTT series (50–100 episodes), our concurrent multi-language pipelines typically deliver 15–20 completed episodes per week per language with strict quality assurance."
+  },
+  {
+    "category": "Technology",
+    "question": "How does AI fit into your production workflow?",
+    "answer": "We believe in AI augmentation, not generic automation. AI powers rapid visual generation, background scene extensions, character design continuity, and initial dialogue drafting for micro dramas. All final voice performances, emotional nuance, lip-sync matching, and sound mixing are directed by veteran human sound artists."
+  },
+  {
+    "category": "Turnaround",
+    "question": "Can you handle high-volume series (100+ episodes)?",
+    "answer": "Yes. High-volume throughput is a core studio strength. We maintain dedicated recording bays and automated ingest pipelines to handle large-scale episodic micro-dramas and ongoing daily OTT releases without bottlenecking."
+  },
+  {
+    "category": "Security",
+    "question": "How do you ensure content confidentiality for unreleased films and shows?",
+    "answer": "Our studio network adheres to TPN (Trusted Partner Network) security protocols. All audio assets are watermarked, encrypted in transit and at rest, and stored on isolated local storage arrays with strict non-disclosure agreements across our entire voice talent roster."
+  },
+  {
+    "category": "Services",
+    "question": "Do you cast voice artists for specific accents or historical characters?",
+    "answer": "Absolutely. With 100+ vetted artists across India and abroad, our creative casting directors will audition and deliver character demo reels tailored to your exact demographic, tone, and dialect within 48 hours."
+  },
+  {
+    "category": "Services",
+    "question": "How do we get started or request a project quotation?",
+    "answer": "You can fill out our interactive Project Brief form on our Contact page, message us directly on WhatsApp at +91 8377086807, or email echobridge.studio6@gmail.com. We respond with a comprehensive scope, timeline, and rate breakdown within 24 hours."
+  }
+]

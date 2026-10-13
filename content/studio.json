@@ -1,0 +1,26 @@
+{
+  "headline": "The Sound Behind the Story.",
+  "subheadline": "World-class acoustic facilities, trusted security standards, and high-volume throughput.",
+  "stats": [
+    { "label": "Vetted Voice Artists", "value": "100+", "description": "Native voice talent across 20+ dialects" },
+    { "label": "Supported Languages", "value": "20+", "description": "Indian & international localization" },
+    { "label": "Studio Network", "value": "TPN", "description": "Trusted Partner Network security approved" },
+    { "label": "Monthly Output", "value": "500+", "description": "Episodes & reels delivered per month" }
+  ],
+  "capabilities": [
+    { "title": "100+ Voice & Dubbing Artists", "desc": "Curated roster spanning children, young adult, elder, and character characterizations." },
+    { "title": "TPN Approved Studio Network", "desc": "Industry gold standard content security for unreleased pre-broadcast OTT media." },
+    { "title": "High-Volume Dubbing Capacity", "desc": "Scalable production pipelines built to deliver 100+ episode seasons without delay." },
+    { "title": "Professional Production Team", "desc": "Veteran sound engineers, dialogue editors, and language supervisors on every session." },
+    { "title": "Multi-Language Simultaneous Delivery", "desc": "Produce 5+ language versions in parallel with consistent tonal quality." },
+    { "title": "Rapid Turnaround Times", "desc": "Agile 24 to 48-hour sprints for digital creator content and topical campaigns." }
+  ],
+  "gallery": [
+    { "title": "Primary Control Room", "role": "Mixing & Multi-Track Supervision", "image": "/assets/slide-studio.png" },
+    { "title": "Broadcast Production Console", "role": "Hardware Pre-Amps & Compression", "image": "/assets/slide-studio.png" },
+    { "title": "Acoustic Voice Isolation Booth", "role": "Neumann Mic Lineup & Silent Airflow", "image": "/assets/slide-studio.png" },
+    { "title": "Client Listening Suite", "role": "5.1 Surround & Spatial Playback", "image": "/assets/slide-studio.png" },
+    { "title": "Dialogue Editing Bay", "role": "Spectral Cleaning & Lip-Sync Fitting", "image": "/assets/slide-studio.png" },
+    { "title": "Creative Production Lounge", "role": "Cast Read-Throughs & Briefing", "image": "/assets/slide-studio.png" }
+  ]
+}

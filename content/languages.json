@@ -1,0 +1,23 @@
+[
+  { "name": "Hindi", "native": "हिन्दी", "group": "indian", "code": "hi", "description": "National reach with multi-dialect support (Standard, Awadhi, Bhojpuri)" },
+  { "name": "Marathi", "native": "मराठी", "group": "indian", "code": "mr", "description": "High-engagement regional theatrical and digital drama dubbing" },
+  { "name": "Tamil", "native": "தமிழ்", "group": "indian", "code": "ta", "description": "Colloquial Chennai and classical Tamil lip-sync dubbing" },
+  { "name": "Telugu", "native": "తెలుగు", "group": "indian", "code": "te", "description": "High-octane mass cinematic dialogue and emotional episodic delivery" },
+  { "name": "Kannada", "native": "ಕನ್ನಡ", "group": "indian", "code": "kn", "description": "Rich OTT and theatrical voice acting roster" },
+  { "name": "Malayalam", "native": "മലയാളം", "group": "indian", "code": "ml", "description": "Nuanced, naturalistic and character-driven voice acting" },
+  { "name": "Punjabi", "native": "ਪੰਜਾਬੀ", "group": "indian", "code": "pa", "description": "Vibrant music, youth narrative, and comedy transcreation" },
+  { "name": "Haryanavi", "native": "हरियाणवी", "group": "indian", "code": "bgc", "description": "Authentic regional micro-drama voice artists" },
+  { "name": "Gujarati", "native": "ગુજરાતી", "group": "indian", "code": "gu", "description": "Commercial, theatre, and serialized OTT localization" },
+  { "name": "Spanish", "native": "Español", "group": "international", "code": "es", "description": "Neutral Latin American and European Castilian voice rosters" },
+  { "name": "English (US & UK)", "native": "English", "group": "international", "code": "en", "description": "Broadcast-certified native narrators and character performers" },
+  { "name": "Arabic", "native": "العربية", "group": "international", "code": "ar", "description": "Modern Standard Arabic (MSA) and Egyptian/Gulf dialect dubbing" },
+  { "name": "Thai", "native": "ภาษาไทย", "group": "international", "code": "th", "description": "High-demand streaming series and micro-drama localization" },
+  { "name": "Bahasa (Indonesian)", "native": "Bahasa Indonesia", "group": "international", "code": "id", "description": "Rapidly growing Southeast Asian mobile content dubbing" },
+  { "name": "Portuguese", "native": "Português", "group": "international", "code": "pt", "description": "Brazilian Portuguese conversational and dramatic dubbing" },
+  { "name": "French", "native": "Français", "group": "international", "code": "fr", "description": "Standard Parisian and African French transcreation" },
+  { "name": "German", "native": "Deutsch", "group": "international", "code": "de", "description": "Precise sync and documentary narration excellence" },
+  { "name": "Italian", "native": "Italiano", "group": "international", "code": "it", "description": "Theatrical voice artists and commercial spots" },
+  { "name": "Turkish", "native": "Türkçe", "group": "international", "code": "tr", "description": "Long-form melodrama and telenovela lip-sync masters" },
+  { "name": "Russian", "native": "Русский", "group": "international", "code": "ru", "description": "Voiceover and multi-voice synchronized translation" },
+  { "name": "Vietnamese", "native": "Tiếng Việt", "group": "international", "code": "vi", "description": "Mobile vertical drama and digital streaming localization" }
+]
