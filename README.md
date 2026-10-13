@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EchoBridge Studio — Cinematic & AI-Powered Content Services
 
-## Getting Started
+> **Bridging Stories Across Worlds**  
+> *Smart Technology. Creative Stories. Global Impact.*
 
-First, run the development server:
+EchoBridge Studio is a premium content and voice production studio dedicated to transforming global stories into culturally resonant local experiences. We specialize in **voice-over, dubbing, localization, subtitling, and audio post-production** for digital platforms, brands, and OTT content, alongside cutting-edge **AI-assisted production workflows** for micro dramas, commercials, and serialized digital storytelling.
+
+---
+
+## ✦ Key Highlights
+
+- **100+ Voice & Dubbing Artists**: Diverse talent network across Indian and international languages.
+- **TPN Approved Studio Network**: Professional recording facilities with secure, broadcast-quality output.
+- **High-Volume Dubbing Capability**: Built to handle large-scale localization projects with consistency.
+- **20+ Languages Supported**:
+  - **Indian Languages**: Hindi, Marathi, Tamil, Telugu, Kannada, Malayalam, Punjabi, Haryanavi, Gujarati, and more.
+  - **International Languages**: Spanish, English (US & UK), Arabic, Thai, Bahasa (Indonesian), Portuguese, French, German, Italian, Turkish, Russian, Vietnamese, and more.
+- **Platform Ecosystem**: Collaborating with **Story TV**, **Kuku TV**, **ShareChat**, **Dashverse**, **Master**, and creator-led **YouTube channels**.
+- **Founder-Led Direction**: Founded by **Sarika Sharma**, bringing rich experience across media broadcasting operations from **Zee Entertainment Enterprises Ltd.**, **Star Network (Star India Pvt. Ltd.)**, and **PlanetCast**.
+
+---
+
+## ✦ Core Services
+
+### 1. AI-Powered Content Services
+- **AI Content Production**: End-to-end long and short-form content solutions from script to screen.
+- **Micro Drama Production**: High-impact vertical serialized dramas for mobile and OTT platforms.
+- **YouTube Content Production**: Script, voice, and video production optimized for creator audience expansion.
+- **Brand & Commercial Films**: High-conversion advertising, product launches, and social media ad creatives.
+
+### 2. Human-Led Creative & Localization Services
+- **Story Development**: Original IP development, scriptwriting, story bibles, world building, and pitch decks.
+- **Localization & Adaptation**: Cultural nuance translation, subtitling, and multi-language adaptation.
+- **Voice & Audio Production**: Full-cast voice acting, lip-sync dubbing, audio dramas, Foley, sound design, and 5.1/binaural mastering.
+
+---
+
+## ✦ Tech Stack
+
+- **HTML5 & Semantic Markup**
+- **Modern Vanilla CSS3**: Custom luxury dark theme, champagne gold tokens, fluid typography, glassmorphism, and responsive grid layouts.
+- **JavaScript (ES6+)**: Custom SPA router, interactive modals, category filter engine, and form handling.
+- **Vite**: Ultra-fast dev server and optimized production build engine.
+
+---
+
+## ✦ Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm (v9+)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Naren-07/portfolio-Echobridge.git
+cd portfolio-Echobridge
+
+# Install dependencies
+npm install
+```
+
+### Development Server
+
+Run the development server locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build optimized static assets:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Preview the production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run preview
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✦ Contact & Inquiries
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Phone**: [+91 8377086807](tel:+918377086807)
+- **Email**: [echobridge.studio6@gmail.com](mailto:echobridge.studio6@gmail.com)
+- **LinkedIn**: [linkedin.com/in/sarikasharma06](https://linkedin.com/in/sarikasharma06)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+© 2026 EchoBridge Studio. All rights reserved. *Crafted with cinematic care.*
