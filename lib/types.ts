@@ -29,7 +29,7 @@ export interface Project {
 
 export interface Service {
   slug: string;
-  pillar: "human" | "ai";
+  pillar: "human" | "ai" | "web";
   pillarTitle: string;
   title: string;
   tagline: string;

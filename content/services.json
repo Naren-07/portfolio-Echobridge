@@ -110,5 +110,38 @@
       "Performance Marketing Social Ad Creative Suites",
       "Cross-Platform Deliverable Packaging"
     ]
+  },
+  {
+    "slug": "web-digital-presence",
+    "pillar": "web",
+    "pillarTitle": "Web & Digital Presence",
+    "title": "Web & Digital Engineering",
+    "tagline": "High-conversion creator portfolios, interactive showreels, and bespoke web platforms.",
+    "description": "Bespoke digital architecture engineered for production studios, creators, and entertainment brands. High-performance Next.js portals, interactive video showreels, multi-language switching interfaces, and conversion-optimized pitch surfaces.",
+    "icon": "Laptop",
+    "image": "/assets/slide-ai-services.jpg",
+    "deliverables": [
+      "Bespoke High-Performance Studio & Creator Portfolios",
+      "Interactive Showreels & Media Streaming Hubs",
+      "Next.js, React & Dynamic CMS Web Architecture",
+      "Mobile-Optimized High-Speed SEO & Media Portals"
+    ]
+  },
+  {
+    "slug": "interactive-media-portals",
+    "pillar": "web",
+    "pillarTitle": "Web & Digital Presence",
+    "title": "Interactive Media & Audio Platforms",
+    "tagline": "Custom web audio players, streaming showcases, and digital client delivery portals.",
+    "description": "Specialized web engineering for audio-visual content creators. We build custom media players, secure client preview review links, localized multilingual previews, and audio dramatization streaming portals.",
+    "icon": "Code2",
+    "image": "/assets/slide-ai-services.jpg",
+    "deliverables": [
+      "Custom Audio Waveform & Multi-Track Web Players",
+      "Client Screening & Watermarked Review Portals",
+      "Multilingual Audio Switcher & Subtitle Web Sync",
+      "Mobile-First Responsive Streaming PWA Experiences"
+    ]
   }
 ]
+

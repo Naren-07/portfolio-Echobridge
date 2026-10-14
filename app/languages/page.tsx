@@ -1,7 +1,8 @@
 import { getLanguages } from "@/lib/data";
 import LanguageMap from "@/components/LanguageMap";
+import GoldenIndiaMap from "@/components/GoldenIndiaMap";
 import Link from "next/link";
-import { ArrowUpRight, CheckCircle2, ShieldCheck } from "lucide-react";
+import { ArrowUpRight, CheckCircle2, ShieldCheck, Sparkles } from "lucide-react";
 
 export default function LanguagesPage() {
   const languages = getLanguages();
@@ -10,22 +11,45 @@ export default function LanguagesPage() {
     <div className="pt-32 pb-24 px-5 sm:px-8 max-w-7xl mx-auto">
       {/* Header */}
       <div className="max-w-3xl mb-16">
-        <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#D9967F] block mb-3">
-          ✦ Global Acoustic Coverage
+        <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#D4AF6A] block mb-3 flex items-center gap-2">
+          <Sparkles className="w-3.5 h-3.5 text-[#D4AF6A]" />
+          <span>Pan-India & Global Acoustic Coverage</span>
         </span>
-        <h1 className="font-display text-5xl sm:text-7xl text-[#FBF3EE] font-normal leading-[1.1] mb-6">
+        <h1 className="font-display text-5xl sm:text-7xl text-[#FBF6EE] font-normal leading-[1.1] mb-6">
           20+ Languages. <br />
-          <span className="rose-gradient-text italic font-serif">Infinite Cultural Resonance.</span>
+          <span className="gold-gradient-text italic font-serif">Infinite Cultural Resonance.</span>
         </h1>
-        <p className="text-[#CDBBB3] text-base sm:text-lg leading-relaxed font-sans font-light">
-          A great story deserves to be understood everywhere. From the heart of India&apos;s linguistic tapestry to Europe, the Americas, and Southeast Asia, we ensure your characters sound native in every market.
+        <p className="text-[#D9CBBF] text-base sm:text-lg leading-relaxed font-sans font-light">
+          A great story deserves to be understood everywhere. From the heart of India&apos;s linguistic tapestry to Europe, the Americas, and Southeast Asia, we ensure your characters sound authentic in every market.
         </p>
       </div>
 
-      {/* Interactive Map Component */}
+      {/* Featured: Golden Map of India Regional Hubs */}
+      <div className="mb-24">
+        <div className="mb-6">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#D4AF6A] block mb-1">
+            ✦ National Dialect Corridors
+          </span>
+          <h2 className="font-display text-3xl sm:text-4xl text-[#FBF6EE] font-medium">
+            India Recording Bays & Regional Centers
+          </h2>
+        </div>
+        <GoldenIndiaMap />
+      </div>
+
+      {/* Interactive Global Dialect Map Component */}
       <div className="mb-20">
+        <div className="mb-6">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#D4AF6A] block mb-1">
+            ✦ Global Dialect Matrix
+          </span>
+          <h2 className="font-display text-3xl sm:text-4xl text-[#FBF6EE] font-medium">
+            International Language Casting & Script Transcreation
+          </h2>
+        </div>
         <LanguageMap languages={languages} />
       </div>
+
 
       {/* Cultural Nuance Quality Standards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-10 rounded-3xl bg-[#140E10] border border-[rgba(232,180,160,0.18)] mb-20">

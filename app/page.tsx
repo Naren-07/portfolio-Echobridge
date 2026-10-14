@@ -3,6 +3,8 @@ import Image from "next/image";
 import { ArrowUpRight, Play, Sparkles, Globe, Mic, ShieldCheck, CheckCircle2, MessageCircle } from "lucide-react";
 import { getFeaturedProjects, getServices, getStudioData, getPartners, getFaqs, getLanguages } from "@/lib/data";
 import FaqAccordion from "@/components/FaqAccordion";
+import GoldenIndiaMap from "@/components/GoldenIndiaMap";
+import PartnersSection from "@/components/PartnersSection";
 
 import { getOrganizationJsonLd, getFaqJsonLd } from "@/lib/seo";
 
@@ -123,53 +125,58 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3. ABOUT TEASER ON CREAM SURFACE */}
-      <section className="py-24 px-5 sm:px-8 transition-colors" data-surface="cream">
-        <div className="max-w-6xl mx-auto">
+      {/* 3. FOUNDER & STUDIO PHILOSOPHY (MATCHING GOLDEN OBSIDIAN) */}
+      <section className="py-24 px-5 sm:px-8 bg-gradient-to-b from-[#120E0A] via-[#16110D] to-[#0C0A07] border-y border-[rgba(212,175,106,0.2)] relative overflow-hidden">
+        {/* Subtle ambient gold radial backdrop */}
+        <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[550px] h-[550px] bg-[radial-gradient(circle,rgba(212,175,106,0.08)_0%,transparent_70%)] pointer-events-none" />
+
+        <div className="max-w-6xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7 flex flex-col gap-6">
-              <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#B76E79]">
-                ✦ Studio Philosophy
+              <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#D4AF6A] flex items-center gap-2">
+                <Sparkles className="w-3.5 h-3.5 text-[#D4AF6A]" />
+                <span>Founder & Executive Leadership</span>
               </span>
-              <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-[#2B1A14] font-normal leading-tight">
+              <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-[#FBF6EE] font-normal leading-tight">
                 One Vision. <br />
-                <span className="italic font-serif">Infinite Stories.</span>
+                <span className="gold-gradient-text italic font-serif">Infinite Stories.</span>
               </h2>
-              <blockquote className="text-xl sm:text-2xl text-[#6B5249] font-display italic leading-relaxed border-l-2 border-[#B76E79] pl-6 my-2">
+              <blockquote className="text-xl sm:text-2xl text-[#FBF6EE] font-display italic leading-relaxed border-l-2 border-[#D4AF6A] pl-6 my-2 bg-gradient-to-r from-[#D4AF6A]/10 to-transparent py-3 rounded-r-xl">
                 &ldquo;We don’t just translate words — we translate emotions, timing, and cultural soul so every narrative feels born in that tongue.&rdquo;
               </blockquote>
-              <p className="text-sm sm:text-base text-[#6B5249] leading-relaxed font-sans">
-                EchoBridge Studio was founded by media broadcast veteran <strong>Sarika Sharma</strong> to bridge the gap between world-class content creators and regional audiences worldwide. From TPN-approved acoustic isolation rooms to cutting-edge AI pipelines, we deliver stories with unmatched cultural fidelity.
+              <p className="text-sm sm:text-base text-[#D9CBBF] leading-relaxed font-sans font-light">
+                EchoBridge Studio was founded by media broadcast veteran <strong className="text-[#FBF6EE] font-medium">Sarika Sharma</strong> to bridge the gap between world-class content creators and regional audiences worldwide. Backed by high-stakes operational leadership across India’s premier broadcast networks, we combine TPN-grade acoustic mastering with next-generation AI workflows for unmatched cultural fidelity.
               </p>
-              <div>
+              <div className="pt-2">
                 <Link
                   href="/about"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-[#B76E79] hover:text-[#2B1A14] transition-colors uppercase tracking-wider font-mono"
+                  className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-[#D4AF6A] hover:text-[#F8E3B6] border-b border-[#D4AF6A]/40 pb-1 hover:border-[#F8E3B6] transition-all"
                 >
-                  <span>Meet Founder Sarika Sharma & Journey</span>
+                  <span>Meet Founder Sarika Sharma & Full Journey</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </Link>
               </div>
             </div>
 
             <div className="lg:col-span-5 relative">
-              <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-[#B76E79]/30 shadow-2xl">
+              <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border-2 border-[#D4AF6A]/40 shadow-[0_20px_50px_rgba(0,0,0,0.8)]">
                 <Image
                   src="/assets/founder.jpg"
                   alt="Founder Sarika Sharma"
                   fill
                   className="object-cover"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0C0A07]/80 via-transparent to-transparent" />
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-xl border border-[#B76E79]/20 max-w-xs">
-                <span className="font-mono text-[10px] text-[#9A8379] uppercase block mb-1">
+              <div className="absolute -bottom-6 -left-6 bg-[#18120C]/95 backdrop-blur-md p-5 rounded-2xl shadow-[0_12px_40px_rgba(0,0,0,0.7)] border border-[rgba(212,175,106,0.35)] max-w-xs">
+                <span className="font-mono text-[10px] text-[#D4AF6A] uppercase tracking-widest block mb-1">
                   Founder & Creative Director
                 </span>
-                <span className="font-display text-lg text-[#2B1A14] font-semibold block">
+                <span className="font-display text-xl text-[#FBF6EE] font-semibold block">
                   Sarika Sharma
                 </span>
-                <span className="text-xs text-[#6B5249]">
-                  Zee · Star Network · PlanetCast
+                <span className="text-xs text-[#E5D9D0] font-sans font-medium mt-0.5 block">
+                  <span className="text-[#D4AF6A] font-semibold">Zee</span> · <span className="text-[#D4AF6A] font-semibold">Star Network</span> · <span className="text-[#D4AF6A] font-semibold">PlanetCast</span>
                 </span>
               </div>
             </div>
@@ -177,23 +184,24 @@ export default function HomePage() {
         </div>
       </section>
 
+
       {/* 4. SERVICES SNAPSHOT */}
-      <section className="py-24 px-5 sm:px-8 bg-[#0B0809]">
+      <section className="py-24 px-5 sm:px-8 bg-[#0C0A07]">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-16">
             <div>
-              <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#D9967F] block mb-2">
-                ✦ Two Pillars of Excellence
+              <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#D4AF6A] block mb-2">
+                ✦ Three Pillars of Excellence
               </span>
-              <h2 className="font-display text-4xl sm:text-5xl text-[#FBF3EE] font-normal">
-                Human-Led Craft. AI Speed.
+              <h2 className="font-display text-4xl sm:text-5xl text-[#FBF6EE] font-normal">
+                Human Craft. AI Speed. Web Engineering.
               </h2>
             </div>
             <Link
               href="/services"
-              className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-[#D9967F] hover:text-[#F8E4DA] transition-colors"
+              className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-[#D4AF6A] hover:text-[#F8E3B6] transition-colors"
             >
-              <span>Explore All 7 Offerings</span>
+              <span>Explore All {services.length} Capabilities</span>
               <ArrowUpRight className="w-4 h-4" />
             </Link>
           </div>
@@ -202,39 +210,40 @@ export default function HomePage() {
             {services.slice(0, 6).map((service) => (
               <div
                 key={service.slug}
-                className="glass-card glass-card-hover rounded-2xl p-7 flex flex-col justify-between"
+                className="glass-card glass-card-hover rounded-2xl p-7 flex flex-col justify-between border border-[rgba(212,175,106,0.18)] hover:border-[#D4AF6A]/60"
               >
                 <div>
                   <div className="flex items-center justify-between mb-4">
-                    <span className="font-mono text-[10px] uppercase tracking-widest text-[#D9967F]">
+                    <span className="font-mono text-[10px] uppercase tracking-widest text-[#D4AF6A]">
                       {service.pillarTitle}
                     </span>
-                    <span className="w-2 h-2 rounded-full bg-[#D9967F]" />
+                    <span className="w-2 h-2 rounded-full bg-[#D4AF6A] shadow-glow" />
                   </div>
-                  <h3 className="font-display text-2xl text-[#FBF3EE] font-semibold mb-2">
+                  <h3 className="font-display text-2xl text-[#FBF6EE] font-semibold mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-xs text-[#CDBBB3] leading-relaxed mb-6">
+                  <p className="text-xs text-[#D9CBBF] leading-relaxed mb-6 font-sans">
                     {service.tagline}
                   </p>
                   <ul className="space-y-2 mb-6">
                     {service.deliverables.slice(0, 3).map((item, idx) => (
-                      <li key={idx} className="text-xs text-[#8C7A74] flex items-center gap-2">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-[#D9967F] shrink-0" />
-                        <span className="truncate">{item}</span>
+                      <li key={idx} className="text-xs text-[#FBF6EE] flex items-center gap-2">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-[#D4AF6A] shrink-0" />
+                        <span className="truncate text-[#D9CBBF]">{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
                 <Link
                   href={`/contact?service=${encodeURIComponent(service.title)}`}
-                  className="inline-flex items-center gap-2 text-xs font-semibold text-[#D9967F] hover:text-[#F8E4DA] pt-4 border-t border-[rgba(232,180,160,0.1)] transition-colors"
+                  className="inline-flex items-center gap-2 text-xs font-semibold text-[#D4AF6A] hover:text-[#F8E3B6] pt-4 border-t border-[rgba(212,175,106,0.15)] transition-colors"
                 >
-                  <span>Discuss This Service</span>
+                  <span>Inquire About {service.title}</span>
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
             ))}
+
           </div>
         </div>
       </section>
@@ -309,79 +318,58 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. LANGUAGES MATRIX STRIP */}
-      <section className="py-24 px-5 sm:px-8 bg-[#0B0809]">
+      {/* 6. LANGUAGES MATRIX STRIP & GOLDEN INDIA MAP */}
+      <section className="py-24 px-5 sm:px-8 bg-gradient-to-b from-[#0C0A07] via-[#120E0A] to-[#0C0A07] border-t border-[rgba(212,175,106,0.18)]">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <div className="lg:col-span-5 flex flex-col gap-5">
-              <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#D9967F]">
-                ✦ 20+ Languages Matrix
-              </span>
-              <h2 className="font-display text-4xl sm:text-5xl text-[#FBF3EE] font-normal leading-tight">
-                Every Story Deserves to Sound Local.
-              </h2>
-              <p className="text-sm text-[#CDBBB3] leading-relaxed font-sans">
-                We cast, adapt, and record in 9 major Indian languages and 12 international languages with native accents, cultural humor transcreation, and sync precision.
-              </p>
-              <div className="flex items-center gap-4 pt-2">
-                <Link
-                  href="/languages"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-semibold tracking-wider text-[#0B0809] bg-gradient-to-r from-[#F1CDBE] to-[#D9967F] shadow-glow"
-                >
-                  <Globe className="w-4 h-4" />
-                  <span>Interactive World Map</span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="lg:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {languages.slice(0, 9).map((lang) => (
-                <div
-                  key={lang.name}
-                  className="glass-card p-4 rounded-xl flex flex-col justify-between"
-                >
-                  <span className="font-serif text-sm text-[#D9967F] block mb-1">
-                    {lang.native}
-                  </span>
-                  <span className="font-display text-base text-[#FBF3EE] font-medium">
-                    {lang.name}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 7. PARTNERS ECOSYSTEM */}
-      <section className="py-20 bg-[#140E10] border-y border-[rgba(232,180,160,0.12)]">
-        <div className="max-w-7xl mx-auto px-5 sm:px-8">
-          <div className="text-center mb-12">
-            <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#D9967F] block mb-2">
-              ✦ Ecosystem Collaborations
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#D4AF6A] block mb-2">
+              ✦ 20+ Languages & Regional Dialect Matrix
             </span>
-            <h2 className="font-display text-3xl sm:text-4xl text-[#FBF3EE] font-normal">
-              Trusted by Streaming & Creator Platforms
+            <h2 className="font-display text-4xl sm:text-6xl text-[#FBF6EE] font-normal leading-tight mb-4">
+              Every Story Deserves to Sound <span className="gold-gradient-text italic font-serif">Native.</span>
             </h2>
+            <p className="text-sm sm:text-base text-[#D9CBBF] leading-relaxed font-sans font-light">
+              Explore our pan-India acoustic coverage and global dialect studios. From broadcast Hindi to regional cinema dialects, our native voice artists deliver pristine emotional fidelity.
+            </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
-            {partners.map((p, idx) => (
+          {/* Golden Map of India Component */}
+          <div className="mb-14">
+            <GoldenIndiaMap />
+          </div>
+
+          {/* Language Cards Quick Grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 pt-6 border-t border-[rgba(212,175,106,0.15)]">
+            {languages.slice(0, 6).map((lang) => (
               <div
-                key={idx}
-                className="glass-card p-5 rounded-2xl flex flex-col items-center text-center justify-center hover:border-[#D9967F]/40 transition-colors"
+                key={lang.name}
+                className="glass-card p-4 rounded-xl flex flex-col justify-between border border-[rgba(212,175,106,0.18)] hover:border-[#D4AF6A]/60 transition-all text-center"
               >
-                <span className="font-display text-lg text-[#FBF3EE] font-semibold mb-1">
-                  {p.name}
+                <span className="font-serif text-sm text-[#D4AF6A] block mb-1">
+                  {lang.native}
                 </span>
-                <span className="font-mono text-[9px] uppercase tracking-wider text-[#8C7A74]">
-                  {p.category}
+                <span className="font-display text-sm text-[#FBF6EE] font-medium">
+                  {lang.name}
                 </span>
               </div>
             ))}
           </div>
+
+          <div className="text-center mt-10">
+            <Link
+              href="/languages"
+              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-xs font-semibold tracking-wider text-[#0C0A07] bg-gradient-to-r from-[#F8E3B6] via-[#D4AF6A] to-[#B88728] shadow-glow hover:scale-105 transition-all"
+            >
+              <Globe className="w-4 h-4" />
+              <span>Explore All 20+ Dialects & World Map</span>
+            </Link>
+          </div>
         </div>
       </section>
+
+      {/* 7. PARTNERS ECOSYSTEM WITH ANIMATED LOGOS */}
+      <PartnersSection />
+
 
       {/* 8. FAQ ACCORDION SECTION */}
       <section className="py-24 px-5 sm:px-8 bg-[#0B0809]">

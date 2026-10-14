@@ -3,41 +3,39 @@
 @tailwind utilities;
 
 :root {
-  /* Dark Cinematic Base */
-  --bg-0: #0B0809;       /* Near-black, warm obsidian */
-  --bg-1: #140E10;       /* Section alternate */
-  --bg-2: #1D1417;       /* Surface cards */
-  --line: rgba(232, 180, 160, 0.18);
+  /* Rich Cinematic Golden-Obsidian Base */
+  --bg-0: #0C0A07;       /* Deep warm espresso obsidian */
+  --bg-1: #15110B;       /* Warm dark golden walnut */
+  --bg-2: #1E1710;       /* Burnished golden-brown surface */
+  --line: rgba(212, 175, 106, 0.22); /* Champagne gold border lines */
 
-  /* Rose Gold & Champagne Accent Family */
-  --rose-100: #F8E4DA;   /* Highlight / light text */
-  --rose-300: #EBC2B0;   /* Champagne rose */
-  --rose-500: #D9967F;   /* Primary accent */
-  --rose-600: #B76E79;   /* Deep rose gold */
+  /* Gold & Champagne Accent Family */
+  --gold-100: #FFF3DB;   /* Highlight text */
+  --gold-200: #F8E3B6;   /* Light champagne */
+  --gold-300: #F2D58E;   /* Bright gold */
   --gold-400: #D4AF6A;   /* Brand emblem gold */
-  --gold-600: #A9762F;
+  --gold-500: #B88E44;   /* Classic rich gold */
+  --gold-600: #A9762F;   /* Deep burnished bronze-gold */
+
+  /* Rose Gold Accents */
+  --rose-400: #E09F8C;
+  --rose-500: #D9967F;
 
   /* Typography Colors */
-  --text-hi: #FBF3EE;    /* Crisp primary text */
-  --text-mid: #CDBBB3;   /* Secondary descriptive text */
-  --text-low: #8C7A74;   /* Muted captions & borders */
+  --text-hi: #FBF6EE;    /* Crisp bright text */
+  --text-mid: #D9CBBF;   /* Clear readable secondary text */
+  --text-low: #9E8D7F;   /* Muted captions */
 
   /* Gradients */
-  --grad-rose: linear-gradient(135deg, #F1CDBE 0%, #D9967F 45%, #B76E79 100%);
-  --grad-gold: linear-gradient(135deg, #F2D58E 0%, #D4AF6A 50%, #A9762F 100%);
-  --glow-rose: 0 0 35px rgba(217, 150, 127, 0.25);
-  --glow-gold: 0 0 30px rgba(212, 175, 106, 0.28);
-}
+  --grad-gold: linear-gradient(135deg, #F8E3B6 0%, #D4AF6A 50%, #A9762F 100%);
+  --grad-rose-gold: linear-gradient(135deg, #F5D7C9 0%, #D9967F 45%, #D4AF6A 100%);
+  --glow-gold: 0 0 35px rgba(212, 175, 106, 0.32);
 
-/* Light/Cream Surface Variant for Founder & Story teardowns */
-[data-surface="cream"] {
-  --bg-0: #FBF3EC;
-  --bg-1: #F5E8DD;
-  --bg-2: #FFFFFF;
-  --line: rgba(183, 110, 121, 0.22);
-  --text-hi: #2B1A14;
-  --text-mid: #6B5249;
-  --text-low: #9A8379;
+  /* Header Layout Tokens for Equal Spacing */
+  --nav-gap: 24px;
+  --cta-gap: 16px;
+  --btn-h: 44px;
+  --btn-px: 22px;
 }
 
 html {
@@ -55,19 +53,31 @@ body {
   position: relative;
 }
 
-/* Custom Scrollbar */
+/* Ambient Golden Aura Background Lighting */
+.golden-ambient-aura {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: 
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212, 175, 106, 0.14), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 60%, rgba(184, 142, 68, 0.08), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 20% 90%, rgba(217, 150, 127, 0.07), transparent 70%);
+}
+
+/* Custom Scrollbar in Warm Gold */
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0B0809;
+  background: #0C0A07;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2A1C20;
+  background: #2B2117;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #D9967F;
+  background: #D4AF6A;
 }
 
 /* Metallic Text Gradients */
@@ -78,7 +88,7 @@ body {
 }
 
 .rose-gradient-text {
-  background: var(--grad-rose);
+  background: var(--grad-rose-gold);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -96,9 +106,9 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
-/* Glassmorphism Cards */
+/* Glassmorphism Cards with Warm Golden Tint */
 .glass-card {
-  background: rgba(29, 20, 23, 0.65);
+  background: rgba(26, 20, 14, 0.72);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--line);
@@ -108,31 +118,9 @@ body {
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .glass-card-hover:hover {
-  border-color: rgba(217, 150, 127, 0.45);
-  box-shadow: 0 10px 40px rgba(217, 150, 127, 0.12);
+  border-color: rgba(212, 175, 106, 0.5);
+  box-shadow: 0 10px 40px rgba(212, 175, 106, 0.15);
   transform: translateY(-3px);
-}
-
-/* Subtle Shimmer Animation */
-@keyframes shimmer {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(200%); }
-}
-
-.shimmer-sweep {
-  position: relative;
-  overflow: hidden;
-}
-.shimmer-sweep::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
-  transform: skewX(-20deg);
-  animation: shimmer 6s infinite;
 }
 
 /* Ticker Animations */

@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://echobridge.studio"),
   title: "EchoBridge Studio | Cinematic AI Content, Localization & Voice Production",
   description:
-    "EchoBridge Studio bridges stories across worlds. Premium voice-over, dubbing, subtitling, audio post, and AI-powered micro drama production for OTT platforms, YouTube creators, and global brands.",
+    "EchoBridge Studio bridges stories across worlds. Premium voice-over, dubbing, subtitling, audio post, web services, and AI-powered micro drama production for OTT platforms, YouTube creators, and global brands.",
   icons: {
     icon: "/assets/echobridge-emblem.jpg",
     apple: "/assets/echobridge-emblem.jpg",
@@ -71,7 +71,8 @@ export default function RootLayout({
       lang="en"
       className={`${cormorant.variable} ${inter.variable} ${greatVibes.variable} ${jetbrainsMono.variable} scroll-smooth`}
     >
-      <body className="bg-[#0B0809] text-[#FBF3EE] antialiased selection:bg-[#D9967F] selection:text-[#0B0809]">
+      <body className="bg-[#0C0A07] text-[#FBF6EE] antialiased selection:bg-[#D4AF6A] selection:text-[#0C0A07]">
+        <div className="golden-ambient-aura" aria-hidden="true" />
         <div className="film-grain" aria-hidden="true" />
         <CanvasParticles />
         <Loader />

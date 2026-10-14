@@ -1,22 +1,25 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight, CheckCircle2, Sparkles, PenTool, Globe, Mic, Cpu, Smartphone, PlaySquare, Film } from "lucide-react";
+import { ArrowUpRight, CheckCircle2, Sparkles, PenTool, Globe, Mic, Cpu, Smartphone, PlaySquare, Film, Laptop, Code2 } from "lucide-react";
 import { getServices } from "@/lib/data";
 
 const ICON_MAP: Record<string, React.ReactNode> = {
-  PenTool: <PenTool className="w-5 h-5 text-[#D9967F]" />,
-  Globe: <Globe className="w-5 h-5 text-[#D9967F]" />,
-  Mic: <Mic className="w-5 h-5 text-[#D9967F]" />,
-  Cpu: <Cpu className="w-5 h-5 text-[#D9967F]" />,
-  Smartphone: <Smartphone className="w-5 h-5 text-[#D9967F]" />,
-  PlaySquare: <PlaySquare className="w-5 h-5 text-[#D9967F]" />,
-  Film: <Film className="w-5 h-5 text-[#D9967F]" />,
+  PenTool: <PenTool className="w-5 h-5 text-[#D4AF6A]" />,
+  Globe: <Globe className="w-5 h-5 text-[#D4AF6A]" />,
+  Mic: <Mic className="w-5 h-5 text-[#D4AF6A]" />,
+  Cpu: <Cpu className="w-5 h-5 text-[#D4AF6A]" />,
+  Smartphone: <Smartphone className="w-5 h-5 text-[#D4AF6A]" />,
+  PlaySquare: <PlaySquare className="w-5 h-5 text-[#D4AF6A]" />,
+  Film: <Film className="w-5 h-5 text-[#D4AF6A]" />,
+  Laptop: <Laptop className="w-5 h-5 text-[#D4AF6A]" />,
+  Code2: <Code2 className="w-5 h-5 text-[#D4AF6A]" />,
 };
 
 export default function ServicesPage() {
   const services = getServices();
   const humanServices = services.filter((s) => s.pillar === "human");
   const aiServices = services.filter((s) => s.pillar === "ai");
+  const webServices = services.filter((s) => s.pillar === "web");
 
   return (
     <div className="pt-32 pb-24 px-5 sm:px-8 max-w-7xl mx-auto">
@@ -139,6 +142,67 @@ export default function ServicesPage() {
               >
                 <span>Inquire</span>
                 <ArrowUpRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Pillar C: Web & Digital Presence Services */}
+      <section id="web-digital" className="mb-24">
+        <div className="flex items-center gap-3 pb-6 border-b border-[rgba(212,175,106,0.22)] mb-12">
+          <span className="w-3 h-3 rounded-full bg-[#E5A93C] shadow-glow" />
+          <div>
+            <h2 className="font-display text-3xl sm:text-4xl text-[#FBF6EE] font-medium">
+              Pillar III · Web & Digital Presence
+            </h2>
+            <p className="text-xs font-mono uppercase tracking-wider text-[#D4AF6A] mt-1">
+              Bespoke Studio Sites, Creator Portfolios & Interactive Media Platforms
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {webServices.map((service) => (
+            <div
+              key={service.slug}
+              className="glass-card rounded-2xl p-8 flex flex-col justify-between border border-[rgba(212,175,106,0.22)] hover:border-[#D4AF6A] transition-all duration-300 shadow-xl"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-[#18120C] border border-[rgba(212,175,106,0.3)] flex items-center justify-center mb-6 shadow-glow">
+                  {ICON_MAP[service.icon] || <Sparkles className="w-5 h-5 text-[#D4AF6A]" />}
+                </div>
+                <h3 className="font-display text-2xl text-[#FBF6EE] font-semibold mb-2">
+                  {service.title}
+                </h3>
+                <p className="text-xs text-[#D4AF6A] font-mono uppercase tracking-wider mb-4">
+                  {service.tagline}
+                </p>
+                <p className="text-sm text-[#D9CBBF] leading-relaxed mb-6 font-sans">
+                  {service.description}
+                </p>
+
+                <div className="pt-4 border-t border-[rgba(212,175,106,0.15)] mb-6">
+                  <h4 className="font-mono text-[11px] uppercase tracking-wider text-[#D4AF6A]/80 mb-3">
+                    Deliverables & Architecture:
+                  </h4>
+                  <ul className="space-y-2.5">
+                    {service.deliverables.map((item, idx) => (
+                      <li key={idx} className="text-xs text-[#FBF6EE] flex items-start gap-2.5">
+                        <CheckCircle2 className="w-4 h-4 text-[#D4AF6A] shrink-0 mt-0.5" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              <Link
+                href={`/contact?service=${encodeURIComponent(service.title)}`}
+                className="inline-flex items-center justify-between w-full px-5 py-3 rounded-full text-xs font-semibold tracking-wider text-[#0C0A07] bg-gradient-to-r from-[#F8E3B6] via-[#D4AF6A] to-[#B88728] shadow-glow hover:brightness-110 transition-all"
+              >
+                <span>Launch Web Project · {service.title}</span>
+                <ArrowUpRight className="w-4 h-4" />
               </Link>
             </div>
           ))}
